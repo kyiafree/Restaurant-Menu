@@ -1,0 +1,65 @@
+body{
+    background-color:white;
+}
+
+
+.navContainer{
+    display:flex;
+    padding:15px;
+    justify-content: space-between;
+    
+}
+.logo{
+    width:30%;
+    height:40px;
+}
+
+.navTab{
+    margin-top:10px;
+    
+}
+.navTab:hover{
+    margin-top:10px;
+    color:yellow;
+}
+.navBtn{
+    height:40px;
+}
+.picContainer{
+    border:solid lightgrey;
+    border-width:.2px;
+    height:400px;
+    background-image: url('https://www.cornerstonebandb.com/wp-content/uploads/column-2-breakfast-745x745.jpeg');
+    background-size:cover;
+
+}
+.mainTitle{
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top:20%;
+    text-align:center;
+}
+.learnBtn{
+    font-size:24px;
+    background-color: yellow;
+    color:white;
+    margin-left:40%;
+}
+.magi{
+    text-align:center;
+}
+.icon{
+    margin-left:46%;
+}
+.foodContainer{
+    display:flex;
+    justify-content: space-between;
+
+}
+.foodPic{
+    width:80%;
+    border-radius:30px;
+    border:solid white;
+    border-width:.2px;
+
+}
